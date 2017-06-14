@@ -153,6 +153,8 @@ public class SoccerActivity extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+            //refresh button
+
         } else if (id == R.id.refresh_button) {
             adapter.clear();
             getLoaderManager().initLoader(loaderID++, null, this);
