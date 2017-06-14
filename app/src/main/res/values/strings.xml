@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SportReader</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="No_Internet_connection">No internet connection.</string>
+    <string name="No_Articles_Found">No articles found.</string>
+    <string name="refresh_icon">refresh_icon</string>
+
+
+</resources>
