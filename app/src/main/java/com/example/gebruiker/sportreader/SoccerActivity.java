@@ -150,12 +150,8 @@ public class SoccerActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-            //refresh button
-
-        } else if (id == R.id.refresh_button) {
+        
+        if (id == R.id.refresh_button) {
             adapter.clear();
             getLoaderManager().initLoader(loaderID++, null, this);
             progressBar.setVisibility(View.VISIBLE);
