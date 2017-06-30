@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gebruiker.sportreader">
+    package="com.soccer.dilion.sportreader">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".HomePageActivity"
+            android:name="com.soccer.dilion.sportreader.HomePageActivity"
             android:label="Sport reader"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -24,21 +24,21 @@
         </activity>
 
         <activity
-            android:name=".SoccerActivity"
+            android:name="com.soccer.dilion.sportreader.SoccerActivity"
             android:label="Soccer"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
 
         <activity
-            android:name=".AmericanFootballActivity"
+            android:name="com.soccer.dilion.sportreader.AmericanFootballActivity"
             android:label="American Football"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
 
         <activity
-            android:name=".CricketActivity"
+            android:name="com.soccer.dilion.sportreader.CricketActivity"
             android:label="Cricket"
             android:theme="@style/AppTheme.NoActionBar">
 

@@ -23,7 +23,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="'Read it when you need it !'"
+        android:text="'Read it if you need it !'"
         android:layout_gravity="center"
         android:layout_centerHorizontal="true"
         android:textColor="@color/White"

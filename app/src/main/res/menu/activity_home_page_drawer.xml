@@ -22,7 +22,14 @@
             android:icon="@drawable/cricket_icon"
             android:title="Cricket" />
 
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/rate"
+            android:title="Rate the app" />
+
     </group>
+
+
 
 
 </menu>
