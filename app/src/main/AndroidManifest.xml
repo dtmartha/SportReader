@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.soccer.dilion.sportreader">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.soccer.dilion.sportreader.HomePageActivity"
+            android:name=".HomePageActivity"
             android:label="Sport reader"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -22,27 +23,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.soccer.dilion.sportreader.SoccerActivity"
+            android:name=".SoccerActivity"
             android:label="Soccer"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.soccer.dilion.sportreader.AmericanFootballActivity"
+            android:name=".AmericanFootballActivity"
             android:label="American Football"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CricketActivity"
+            android:label="Cricket"
+            android:theme="@style/AppTheme.NoActionBar" />
 
-        </activity>
 
         <activity
-            android:name="com.soccer.dilion.sportreader.CricketActivity"
-            android:label="Cricket"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
+        <activity
+            android:name=".WebViewActivity"
+            android:label="Article"
+            android:parentActivityName="com.soccer.dilion.sportreader.HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:targetApi="jelly_bean">
+            <meta-data
+
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.soccer.dilion.sportreader.HomePageActivity" />
         </activity>
     </application>
-
 </manifest>
+
+
+

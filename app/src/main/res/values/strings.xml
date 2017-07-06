@@ -8,6 +8,18 @@
     <string name="No_Internet_connection">No internet connection.</string>
     <string name="No_Articles_Found">No articles found.</string>
     <string name="refresh_icon">refresh_icon</string>
+    <string name="search_icon">Search icon</string>
+    <string name="adUnitId">ca-app-pub-7230082147011461/7677825037</string>
+    <string name="search_string">Search</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="image_loaded_from_api">image loaded from api</string>
+    <string name="tittle">tittle</string>
+    <string name="description">Description</string>
+    <string name="clock_icon">Clock icon</string>
+    <string name="date">Date</string>
+    <string name="author">Author</string>
+    <string name="url">Url</string>
+    <string name="loading_articles">Loading articles ...</string>
 
 
 </resources>

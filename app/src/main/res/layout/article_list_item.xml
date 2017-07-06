@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/article_list_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fontFamily="sans-serif-medium"
@@ -13,7 +13,8 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
-        android:gravity="center" />
+        android:gravity="center"
+        android:contentDescription="@string/image_loaded_from_api" />
 
     <TextView
         android:id="@+id/tittle"
@@ -23,7 +24,7 @@
         android:ellipsize="end"
         android:maxLines="2"
         android:paddingLeft="16dp"
-        android:text="tittle"
+        android:text="@string/tittle"
         android:textStyle="bold" />
 
 
@@ -35,7 +36,7 @@
         android:layout_toRightOf="@+id/imageView"
         android:maxLines="4"
         android:paddingLeft="16dp"
-        android:text="Description"
+        android:text="@string/description"
         android:textStyle="italic" />
 
     <ImageView
@@ -44,10 +45,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/description"
         android:layout_toRightOf="@+id/imageView"
-        android:src="@drawable/clock_icon1"
-        android:paddingTop="4dp"
         android:paddingBottom="4dp"
-        android:paddingLeft="16dp" />
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:src="@drawable/clock_icon1"
+        android:contentDescription="@string/clock_icon" />
 
 
     <TextView
@@ -58,7 +60,7 @@
         android:layout_toRightOf="@+id/clock_icon"
         android:maxLines="1"
         android:paddingLeft="4dp"
-        android:text="Date"
+        android:text="@string/date"
         android:textStyle="bold" />
 
     <TextView
@@ -68,7 +70,7 @@
         android:layout_below="@+id/date"
         android:layout_toRightOf="@+id/imageView"
         android:paddingLeft="16dp"
-        android:text="Author"
+        android:text="@string/author"
         android:textStyle="bold" />
 
     <TextView
@@ -77,8 +79,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/author"
-        android:text="Url"
+        android:text="@string/url"
         android:visibility="gone" />
+
 
 
 </RelativeLayout>
